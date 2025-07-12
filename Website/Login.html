@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+</head>
+<body>
+	<script src="main.js" defer></script>
+	<header id="mainheader">
+		<div class="container">
+			<h1><img src="Images/NITT_logo.png" alt="NITT emblem"width=30 px>Student Diary</h1>
+		</div>
+		<div class="1">
+			<h3></h3>
+		</div>
+	</header>
+	<div class="login">
+		<h1>Login</h1>
+		<p id="error-message"></p>
+		<form id="login">
+			<div>
+				<label>Roll number:</label><input required type="text" name="rollno" id="rollno-input" placeholder="Roll No">
+			</div>
+			<div>	
+				<label>Webmail:</label><input required type="email" name="email" id="email-input" placeholder="NITT webmail">
+			</div>
+			<div>
+				<label>Password:</label><input required type="password" name="password" id="password-input" placeholder="Password">
+			</div>
+			<button type="submit" class="submit" href="home.html">Enter</button>
+		</form>
+		<p class='forgot'><a href="forgotpass.html">Forgot Password?</a></p>
+	</div>
+</body>
+</html>

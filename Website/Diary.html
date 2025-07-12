@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Diary</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+</head>
+<body>
+	<header id="mainheader">
+		<div class="container">
+			<h1><img src="Images/NITT_logo.png" alt="NITT emblem"width=30 px>Student Diary</h1>
+		</div>
+		<div class="1">
+			<h3></h3>
+		</div>
+	</header>
+	<nav id="navbar">
+		<div class="container">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="diary.html">Diary</a></li>
+				<li><a href="calendar.html">Calendar</a>
+				<li><a href="assignments.html">Assignments</a></li>
+				<li><a href="announcements.html">Announcements</a></li>
+				<li><a href="login.html">Logout</a></li>
+		</div>
+	</nav>
+	<section id="showcase">
+		<div class="container">		
+				<h1>Diary</h1>
+				<p>Access your personal jotted down entries to check back on any past work or type a new one now to keep for later use</p>
+		</div>
+		<div class="container-row container-row-journal">
+          <div class="container-item container-item-journal">
+            <form id="entryForm" action="">
+              <label for="entry-title" class="journal-label">Entry Title</label>
+              <input
+                type="text"
+                name="entry-title"
+                id="entry-title"
+                class="entry-text-title"
+                placeholder="Name of entry"
+              />
+              <label for="entry" class="journal-label">Today's Entry</label>
+              <textarea
+                name="daily-entry"
+                id="entry"
+                class="entry-text-box"
+                placeholder="What's on your mind today?"
+              ></textarea>
+              <button class="btn-main entry-submit-btn" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+	</section>
+	</section>
+	<br>
+	<section class="section sectionEntryResults" id="entryResultsSection">
+      <div class="container">
+        <div class="container-row entryResultRow"></div>
+      </div>
+    </section>
+	<br>
+	<footer id="mainfooter">
+		<div class="container">
+			<h2>Contact info</h2>
+			<p>Ph no: 12345678</p>
+			<p>Mobile no: +91 9136090806</p>
+			<p>Email:guyofbluecity@gmail.com</a></p>
+			<p><a href="https://www.nitt.edu/">NIT Trichy</a></p>
+		</div>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
